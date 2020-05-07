@@ -19,7 +19,7 @@ html, body {
   }
   
   input {
-    width: 600px;
+    width: 500px;
     border: 1px solid #ddd;
     border-radius: 10px 16px;
     height: 50px;
@@ -28,7 +28,7 @@ html, body {
   }
   
   button {
-    width: 600px;
+    width: 90px;
     height: 50px;
     font-size: 14px;
     background: #18466C;
@@ -36,7 +36,10 @@ html, body {
     line-height: 50px;
     font-weight: bold;
     color: #FFF;
-    margin-top: 10px;
+
+    border-radius: 10px 16px;
+
+    margin-left: 10px;
   }
   
   .messages {
@@ -46,4 +49,8 @@ html, body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #214BA5;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
   }
